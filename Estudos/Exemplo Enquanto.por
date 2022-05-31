@@ -1,31 +1,24 @@
-//8) Construa um sistema para ler uma variavel...
-
-programa {
+programa
+{
 	
-	funcao inicio(){
-		
-		inteiro N
+	funcao inicio()
+	{
+		caracter letra
 
-		escreva("O numero é: ")
-		leia(N)
-
-		
-		se(N>=100){
-			escreva("O número é: " + N)
+		escreva("Digite s para sair do programa ou t para continuar: ")
+		leia(letra)
+		enquanto(letra != 's' e letra == 't'){
+			escreva("Olá mundo! \n")
+			leia(letra)
 		}
-		senao{
-			escreva("Igual a 0!")
-		}
-	
 	}
-	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 140; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
